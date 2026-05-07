@@ -1,0 +1,43 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Login</h2>
+
+        <form>
+
+            <input 
+                type="email" 
+                placeholder="Email Address"
+                required
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                title="Enter a valid email address"
+            >
+
+            <input 
+                type="password" 
+                placeholder="Password"
+                required
+                minlength="6"
+                maxlength="12"
+                title="Password must be between 6 and 12 characters"
+            >
+
+            <small>Password must contain 6-12 characters</small>
+
+            <button type="submit">LOGIN</button>
+
+        </form>
+
+        <p class="link">Not a member? <a href="registration.html">Create Account</a></p>
+    </div>
+
+</body>
+</html>
