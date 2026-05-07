@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Times New Roman', Times, serif;
+    background:white;
+}
+
+/* login page */
+
+.container{
+    width:350px;
+    margin:100px auto;
+    background:lightcyan;
+    padding:30px;
+    text-align:center;
+    border-radius:10px;
+}
+
+.container input{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid gray;
+    border-radius:5px;
+}
+
+.container button{
+    width:100%;
+    padding:12px;
+    background:blue;
+    color:white;
+    border:none;
+    border-radius:5px;
+}
+
+.link{
+    margin-top:15px;
+}
+
+/* registration page */
+
+.register-container{
+    width:800px;
+    margin:30px auto;
+    background:lightblue;
+    padding:30px;
+    border-radius:8px;
+}
+
+.register-container h1{
+    text-align:center;
+    margin-bottom:25px;
+}
+
+.form-group{
+    display:flex;
+    align-items:center;
+    margin-bottom:15px;
+}
+
+.form-group > label{
+    width:150px;
+    font-weight:bold;
+}
+
+.form-group > input,
+.form-group > select,
+.form-group > textarea{
+    flex:1;
+    padding:8px;
+    border:1px solid gray;
+    border-radius:4px;
+}
+
+.row{
+    display:flex;
+    gap:10px;
+    flex:1;
+}
+
+.row input{
+    flex:1;
+    padding:8px;
+    border:1px solid gray;
+    border-radius:4px;
+}
+
+.mobile-row{
+    display:flex;
+    gap:10px;
+    flex:1;
+}
+
+.mobile-row .code{
+    width:60px;
+    text-align:center;
+}
+
+.mobile-row input:last-child{
+    flex:1;
+    padding:8px;
+    border:1px solid gray;
+    border-radius:4px;
+}
+
+.inline-group{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    flex:1;
+}
+
+.inline-group label{
+    font-weight:normal;
+}
+
+.inline-group input{
+    width:auto;
+}
+
+textarea{
+    height:80px;
+    resize:none;
+}
+
+.center-btn{
+    text-align:center;
+    margin-top:20px;
+}
+
+.center-btn button{
+    padding:10px 30px;
+    background:blue;
+    color:white;
+    border:none;
+    border-radius:5px;
+}
